@@ -8,7 +8,7 @@ import HomeScreen from './pages/HomeScreen';
 import SettingsScreen from './pages/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
-export default function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator>
@@ -17,4 +17,6 @@ export default function App() {
       </Tab.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default App;
